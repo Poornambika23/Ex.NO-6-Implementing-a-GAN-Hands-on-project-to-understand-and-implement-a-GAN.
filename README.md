@@ -53,8 +53,7 @@ from torchvision import datasets, transforms
 
 import matplotlib.pyplot as plt
 import numpy as np
-
-# Select GPU if available, otherwise CPU
+Select GPU if available, otherwise CPU
 device = torch.device(
     'cuda' if torch.cuda.is_available() else 'cpu'
 )
